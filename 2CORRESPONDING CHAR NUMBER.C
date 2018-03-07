@@ -1,11 +1,11 @@
 #include<stdio.h>
  int main()
  {
- 	int n;
- 	char c='A';
+ 	int a;
+ 	char b='A';
  	printf("ENTER THE NUMBER:");
- 	scanf("%d",&n);
- 	c=c+n-1;
- 	printf("\nRESULT =%c",c);
+ 	scanf("%d",&a);
+ 	b=b+a-1;
+ 	printf("\nRESULT =%c",b);
  	return 0;
  }
